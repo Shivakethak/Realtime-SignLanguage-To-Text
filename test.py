@@ -5,7 +5,7 @@ import numpy as np
 import math
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
-classifier = Classifier("C:/Users/shivakethak/PycharmProjects/PythonProject/.venv/HandSignDetection/Model/keras_model.h5", "C:/Users/shivakethak/PycharmProjects/PythonProject/.venv/HandSignDetection/Model/labels.txt")
+classifier = Classifier("C:/Users/shivakethak/PycharmProjects/PythonProject/Model/keras_model.h5", "C:/Users/shivakethak/PycharmProjects/PythonProject/Model/labels.txt")
 offset = 20
 imgSize = 300
 folder = "Data/C"
